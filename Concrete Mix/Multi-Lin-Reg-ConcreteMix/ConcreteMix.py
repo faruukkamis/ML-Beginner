@@ -23,7 +23,7 @@ y_pred = regressor.predict(x_test)
 
 # Getting OLS Model for backward elemination if it is needed.
 import statsmodels.api as sm
-CCS = veriler.iloc[:,-1:]
+CCS = veriler.iloc[:,-1:].values
 X_l = veriler.iloc[:,[0,1,2,3,4,5,6,7]].values
 X_l = np.array(X_l, dtype=float)
 model = sm.OLS(CCS,X_l).fit()
