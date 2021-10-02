@@ -54,3 +54,7 @@ plt.show()
 from sklearn.metrics import r2_score
 print('R^2 value of Multiple Linear Regression: ',r2_score(y_test, y_pred))
 print('R^2 value of Random Forest Regression: ', r2_score(y_test, y_pred1))
+
+
+
+
