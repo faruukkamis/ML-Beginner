@@ -37,3 +37,9 @@ plt.ylabel(' Concrete Compressive Strength (MPa)')
 from sklearn.metrics import r2_score
 print('\n')
 print('R^2 value of analysis: ', r2_score(y_test, y_pred))
+
+
+
+
+
+
